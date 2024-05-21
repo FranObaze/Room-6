@@ -8,5 +8,6 @@ function changeColor(event) {
 }
 
 document.querySelectorAll("h5").forEach((h5) => {
-  h5.addEventListener("click", changeColor);
+    h5.addEventListener("click", changeColor);
+    h5.style = "cursor: pointer;"
 });
