@@ -17,3 +17,8 @@ h3.blue{
 h3.red{
   color: red;
 }
+
+.img-thumbnail {
+  width: 700px;
+  height: 500px;
+}
